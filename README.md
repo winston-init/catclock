@@ -1,6 +1,6 @@
 # catclock
 
-catclock is a application web that show the current hour, according with the time appear differents messages.
+catclock is a application web that show the current hour, according with the time appear differents messages with cats. App hava a button with a functionality of cats dancing.
 
 <img src="https://github.com/winston-init/catclock/blob/master/resources/screenshot/layout.png" width="30%">
 
