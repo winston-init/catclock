@@ -13,7 +13,6 @@ The purpose of this project is apply recent knowledges studied, find new problem
 ```
 git clone https://www.github.com/winston-init/catclock.git
 ```
-*by winston*
 
 ## Build With
 
