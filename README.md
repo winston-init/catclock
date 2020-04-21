@@ -16,9 +16,9 @@ git clone https://www.github.com/winston-init/catclock.git
 
 ## Build With
 
-* HTML
-* PURE CSS
-* PURE JAVASCRIPT
+* Html
+* Pure Css
+* Pure JavaScript
 
 ## Versioning
 
