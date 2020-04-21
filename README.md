@@ -23,4 +23,4 @@ git clone https://www.github.com/winston-init/catclock.git
 
 ## Versioning
 
-We use (Git)[https://git-scm.com/] for versioning.
+We use [Git](https://git-scm.com/) for versioning.
