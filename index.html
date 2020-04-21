@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catclock</title>
+    <link rel="shortcut icon" type="image/icon" href="resources/icon/icon.ico";>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>catclock</h1>
+        </header>
+        <main>
+            <div class="time-in-real">
+                <div class="time"></div>
+            </div>
+
+            <div class="cat-display">
+                <img src="" alt="">
+            </div>
+
+            <h1 class="message"></h1>
+
+    
+            <div class="clock-select">
+                <div class="select">
+                    <label for="wake-up-time">Wake up time</label>
+                    <select name="" id="wake-up-time">
+                        <option value="12 AM">12 AM </option>
+                        <option value="1 AM">1 AM</option>
+                        <option value="2 AM">2 AM</option>
+                        <option value="3 AM">3 AM</option>
+                        <option value="4 AM">4 AM</option>
+                        <option value="5 AM">5 AM</option>
+                        <option value="6 AM" selected>6 AM</option>
+                        <option value="7 AM">7 AM</option>
+                        <option value="8 AM">8 AM </option>
+                        <option value="9 AM">9 AM</option>
+                        <option value="10 AM">10 AM</option>
+                        <option value="11 AM">11 AM</option>
+                        <option value="12 PM">12 PM</option>
+                        <option value="1 PM">1 PM</option>
+                        <option value="2 PM">2 PM</option>
+                        <option value="3 PM">3 PM</option>
+                        <option value="4 PM">4 PM</option>
+                        <option value="5 PM">5 PM</option>
+                        <option value="6 PM">6 PM</option>
+                        <option value="7 PM">7 PM</option>
+                        <option value="8 PM">8 PM</option>
+                        <option value="9 PM">9 PM</option>
+                        <option value="10 PM">10 PM</option>
+                        <option value="11 PM">11 PM</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <label for="lunch-time">Set lunch time</label>
+                    <select name="" id="lunch-time">
+                        <option value="12 AM">12 AM </option>
+                        <option value="1 AM">1 AM </option>
+                        <option value="2 AM">2 AM </option>
+                        <option value="3 AM">3 AM </option>
+                        <option value="4 AM">4 AM</option>
+                        <option value="5 AM">5 AM </option>
+                        <option value="6 AM">6 AM</option>
+                        <option value="7 AM">7 AM</option>
+                        <option value="8 AM">8 AM</option>
+                        <option value="9 AM">9 AM</option>
+                        <option value="10 AM">10 AM</option>
+                        <option value="11 AM">11 AM</option>
+                        <option value="12 PM" selected>12 PM</option>
+                        <option value="1 PM">1 PM</option>
+                        <option value="2 PM">2 PM</option>
+                        <option value="3 PM">3 PM</option>
+                        <option value="4 PM">4 PM</option>
+                        <option value="5 PM">5 PM</option>
+                        <option value="6 PM">6 PM</option>
+                        <option value="7 PM">7 PM</option>
+                        <option value="8 PM">8 PM</option>
+                        <option value="9 PM">9 PM</option>
+                        <option value="10 PM">10 PM</option>
+                        <option value="11 PM">11 PM</option>
+                    </select>
+                </div>
+                <div class="select">
+                    <label for="nap-time">Set nap time</label>
+                    <select name="" id="nap-time">
+                        <option value="12 AM">12 AM</option>
+                        <option value="1 AM">1 AM</option>
+                        <option value="2 AM">2 AM</option>
+                        <option value="3 AM">3 AM</option>
+                        <option value="4 AM">4 AM</option>
+                        <option value="5 AM">5 AM</option>
+                        <option value="6 AM">6 AM</option>
+                        <option value="7 AM">7 AM</option>
+                        <option value="8 AM">8 AM</option>
+                        <option value="9 AM">9 AM</option>
+                        <option value="10 AM">10 AM</option>
+                        <option value="11 AM">11 AM</option>
+                        <option value="12 PM">12 PM</option>
+                        <option value="1 PM">1 PM</option>
+                        <option value="2 PM">2 PM</option>
+                        <option value="3 PM" selected>3 PM</option>
+                        <option value="4 PM">4 PM</option>
+                        <option value="5 PM">5 PM</option>
+                        <option value="6 PM">6 PM</option>
+                        <option value="7 PM">7 PM</option>
+                        <option value="8 PM">8 PM</option>
+                        <option value="9 PM">9 PM</option>
+                        <option value="10 PM">10 PM</option>
+                        <option value="11 PM">11 PM</option>
+                    </select>
+                </div>
+                <button class="btn">Party Time!</button>
+            </div>
+        </main>
+        <footer>
+            <h3><span>Github:</span> winston-init</h3>
+        </footer>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal">
+            <h3>Wake Up time</h3>
+            <button class="btn-x">X</button>
+        </div>
+        <div class="modal">
+            <h3>Lunch time</h3>
+            <button class="btn-x">X</button>
+        </div>
+        <div class="modal">
+            <h3>Nap time</h3>
+            <button class="btn-x">X</button>
+        </div>
+    </div>
+    
+
+    <!-- wake up time
+    set lunch time
+    set nap time -->
+    <script src="resources/js/index.js"></script>
+</body>
+</html>

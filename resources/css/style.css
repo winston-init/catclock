@@ -1,0 +1,169 @@
+h1, h2, h3, h4, h5, h6, p, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f55069;
+    font-family: 'Baloo da 2', cursive;
+    color: #fff;
+}
+
+.container {
+    width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    height: 10vh;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header > h1 {
+    text-shadow: -4px 4px black;
+}
+
+header, footer, .time-in-real, .clock-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 110vh;
+}
+
+.time {
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+    width: auto;
+    height: 110px;
+}
+
+.cat-display {
+    width: 45%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cat-display > img {
+    width: 100%;
+    height: 100%;
+}
+
+.message {
+    text-shadow: -3px 3px #000;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 81px;
+}
+
+.clock-select {
+    width: 100%;
+    flex-direction: column;
+}
+
+.select {
+    font-size: 1.5rem;
+}
+
+select {
+    height: 25px;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 20%;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+}
+
+footer {
+    height: 10vh;
+}
+
+footer > h3 {
+    font-size: 1.5rem;
+}
+
+footer span {
+    color: #333;
+}
+
+.modal-container {
+    width: 100vw;
+    background-color: rgba(0,0,0,.4);
+    height: 100vh;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.show {
+    display: flex;
+}
+
+.modal {
+    width: 68%;
+    background-color: #fff;
+    min-height: 300px;
+    position: relative;
+    border-radius: 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal > h3 {
+    font-size: 7rem;
+    color: #333;
+}
+
+.btn-x {
+    background: none;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -10px;
+    right: -10px;
+    font-size: 1.2rem;
+    outline: 0;
+    border-radius :50%;
+}
