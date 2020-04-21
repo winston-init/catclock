@@ -10,8 +10,15 @@ The purpose of this project is apply recent knowledges studied, find new problem
 
 ## Getting Started
 
+
+### Installing
+
 ```
 git clone https://www.github.com/winston-init/catclock.git
+```
+
+```
+Now open the index.html file
 ```
 
 ## Build With
