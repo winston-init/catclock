@@ -17,7 +17,7 @@ The purpose of this project is apply recent knowledges studied, find new problem
 git clone https://www.github.com/winston-init/catclock.git
 ```
 
-**Now open the index.html file**
+**Now open the index.html file in the folder that execute git clone command**
 
 ## Build With
 
